@@ -1,0 +1,11 @@
+Vagrantfile
+setup.rb
+config.yaml
+source/vendor
+source/vendor/*
+.vagrant
+.vagrant/*
+.idea
+.idea/*
+.git
+.git/*

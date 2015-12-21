@@ -1,0 +1,16 @@
+default:
+  - route: '/'
+    action: 'home.index'
+    name: 'homepage'
+    method: 'get'
+  - route: '/testing'
+    action: 'home.index'
+    name: 'homepage'
+'/admin':
+  - route: ''
+    action: 'home.admin'
+    name: 'homepage'
+  - route: '/testing/{id}'
+    action: 'home.admin'
+    name: 'homepage'
+    method: 'get'
